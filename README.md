@@ -11,7 +11,7 @@ LAMMPS needs to be compiled with some nonstandard packages in order to be able t
 ```
 git clone https://github.com/lammps/lammps.git lammps
 cd lammps/src
-cp USER-MISC/fix_ti_spring.* .
+cp EXTRA-FIX/fix_ti_spring.* .
 make yes-MANYBODY
 make -j 8 serial
 ```
@@ -69,7 +69,3 @@ If the code ran correctly you should obtain the following figure:
 </p>
 
 This figure reproduces the results of Figure 3 of [this](https://doi.org/10.1016/j.commatsci.2015.10.050) article.
-
-## Author & Contact
-
-Rodrigo Freitas | freitas@stanford.edu
